@@ -1,0 +1,30 @@
+:root {
+	--font: ;
+
+	--font-text-xl: normal 1.1875rem/1.75rem var(--font);
+	--font-text-l: normal 1.0625rem/1.5rem var(--font);
+	--font-text-m: normal 0.9375rem/1.5rem var(--font);
+	--font-text-s: normal 0.8125/1.25rem var(--font);
+	--font-text-xs: normal 0.6875/1rem var(--font);
+
+	--font-heading-1: bold 3.125rem/3.5rem var(--font);
+	--font-heading-2: bold 2.75rem/3rem var(--font);
+	--font-heading-3: bold 2.25rem/2.5rem var(--font);
+	--font-heading-4: bold 1.75rem/2rem var(--font);
+	--font-heading-5: bold 1.5rem/1.75rem var(--font);
+	--font-heading-6: bold 1.25rem/1.5rem var(--font);
+
+	--color-ikira-red: #cc0000;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+
+html {
+	font-size: 16px;
+	font: var(--font-text-s);
+}
