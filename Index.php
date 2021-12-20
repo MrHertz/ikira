@@ -11,5 +11,5 @@ spl_autoload_register('core\Autoloader::load');
 
 Router::run();
 
-/*pep from aacer*/
+/*pep from acer*/
 ?>
