@@ -10,6 +10,4 @@ include DIR_ROOT . '/Core/Classes/Autoloader.php';
 spl_autoload_register('core\Autoloader::load');
 
 Router::run();
-
-/*pep from acerr*/
 ?>
