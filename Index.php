@@ -11,4 +11,5 @@ spl_autoload_register('core\Autoloader::load');
 
 Router::run();
 
+/*pep from hp*/
 ?>
